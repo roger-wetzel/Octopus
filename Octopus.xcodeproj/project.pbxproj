@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB18F06E1C3499360031AE36 /* Tentacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18F06D1C3499360031AE36 /* Tentacle.swift */; };
+		DB18F0701C3499490031AE36 /* Octopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18F06F1C3499490031AE36 /* Octopus.swift */; };
+		DB18F0721C3499C50031AE36 /* Diver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18F0711C3499C50031AE36 /* Diver.swift */; };
+		DB5860261C343A58009E1B11 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB5860251C343A58009E1B11 /* data.json */; };
+		DB9C5D471C3EB5A5008E67D3 /* beep_short.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9C5D441C3EB5A5008E67D3 /* beep_short.mp3 */; };
+		DB9C5D481C3EB5A5008E67D3 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9C5D451C3EB5A5008E67D3 /* beep.mp3 */; };
+		DB9C5D491C3EB5A5008E67D3 /* tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9C5D461C3EB5A5008E67D3 /* tick.mp3 */; };
+		DBA51AEC1C301175009131B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA51AEB1C301175009131B5 /* AppDelegate.swift */; };
+		DBA51AEE1C301175009131B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DBA51AED1C301175009131B5 /* GameScene.sks */; };
+		DBA51AF01C301175009131B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA51AEF1C301175009131B5 /* GameScene.swift */; };
+		DBA51AF21C301175009131B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA51AF11C301175009131B5 /* GameViewController.swift */; };
+		DBA51AF41C301175009131B5 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA51AF31C301175009131B5 /* Game.xcassets */; };
+		DBA51AF71C301175009131B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA51AF51C301175009131B5 /* Main.storyboard */; };
+		DBA51AF91C301175009131B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA51AF81C301175009131B5 /* Assets.xcassets */; };
+		DBA51B011C3011D3009131B5 /* octopus.json in Resources */ = {isa = PBXBuildFile; fileRef = DBA51B001C3011D3009131B5 /* octopus.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB18F06D1C3499360031AE36 /* Tentacle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tentacle.swift; sourceTree = "<group>"; };
+		DB18F06F1C3499490031AE36 /* Octopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octopus.swift; sourceTree = "<group>"; };
+		DB18F0711C3499C50031AE36 /* Diver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diver.swift; sourceTree = "<group>"; };
+		DB5860251C343A58009E1B11 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DB9C5D441C3EB5A5008E67D3 /* beep_short.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep_short.mp3; sourceTree = "<group>"; };
+		DB9C5D451C3EB5A5008E67D3 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		DB9C5D461C3EB5A5008E67D3 /* tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tick.mp3; sourceTree = "<group>"; };
+		DBA51AE81C301175009131B5 /* Octopus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octopus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA51AEB1C301175009131B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBA51AED1C301175009131B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DBA51AEF1C301175009131B5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DBA51AF11C301175009131B5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DBA51AF31C301175009131B5 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		DBA51AF61C301175009131B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA51AF81C301175009131B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBA51AFA1C301175009131B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA51B001C3011D3009131B5 /* octopus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = octopus.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA51AE51C301175009131B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9C5D431C3EB590008E67D3 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				DB9C5D441C3EB5A5008E67D3 /* beep_short.mp3 */,
+				DB9C5D451C3EB5A5008E67D3 /* beep.mp3 */,
+				DB9C5D461C3EB5A5008E67D3 /* tick.mp3 */,
+			);
+			name = SFX;
+			sourceTree = "<group>";
+		};
+		DBA51ADF1C301175009131B5 = {
+			isa = PBXGroup;
+			children = (
+				DBA51AEA1C301175009131B5 /* Octopus */,
+				DBA51AE91C301175009131B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA51AE91C301175009131B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA51AE81C301175009131B5 /* Octopus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA51AEA1C301175009131B5 /* Octopus */ = {
+			isa = PBXGroup;
+			children = (
+				DB9C5D431C3EB590008E67D3 /* SFX */,
+				DBA51AEB1C301175009131B5 /* AppDelegate.swift */,
+				DBA51AED1C301175009131B5 /* GameScene.sks */,
+				DBA51AEF1C301175009131B5 /* GameScene.swift */,
+				DBA51AF11C301175009131B5 /* GameViewController.swift */,
+				DBA51AF31C301175009131B5 /* Game.xcassets */,
+				DBA51AF51C301175009131B5 /* Main.storyboard */,
+				DBA51AF81C301175009131B5 /* Assets.xcassets */,
+				DBA51AFA1C301175009131B5 /* Info.plist */,
+				DB5860251C343A58009E1B11 /* data.json */,
+				DBA51B001C3011D3009131B5 /* octopus.json */,
+				DB18F06D1C3499360031AE36 /* Tentacle.swift */,
+				DB18F06F1C3499490031AE36 /* Octopus.swift */,
+				DB18F0711C3499C50031AE36 /* Diver.swift */,
+			);
+			path = Octopus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA51AE71C301175009131B5 /* Octopus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA51AFD1C301175009131B5 /* Build configuration list for PBXNativeTarget "Octopus" */;
+			buildPhases = (
+				DBA51AE41C301175009131B5 /* Sources */,
+				DBA51AE51C301175009131B5 /* Frameworks */,
+				DBA51AE61C301175009131B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octopus;
+			productName = Octopus;
+			productReference = DBA51AE81C301175009131B5 /* Octopus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA51AE01C301175009131B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zyense;
+				TargetAttributes = {
+					DBA51AE71C301175009131B5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DBA51AE31C301175009131B5 /* Build configuration list for PBXProject "Octopus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA51ADF1C301175009131B5;
+			productRefGroup = DBA51AE91C301175009131B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA51AE71C301175009131B5 /* Octopus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA51AE61C301175009131B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9C5D481C3EB5A5008E67D3 /* beep.mp3 in Resources */,
+				DBA51AF71C301175009131B5 /* Main.storyboard in Resources */,
+				DB9C5D491C3EB5A5008E67D3 /* tick.mp3 in Resources */,
+				DB5860261C343A58009E1B11 /* data.json in Resources */,
+				DBA51AEE1C301175009131B5 /* GameScene.sks in Resources */,
+				DB9C5D471C3EB5A5008E67D3 /* beep_short.mp3 in Resources */,
+				DBA51AF91C301175009131B5 /* Assets.xcassets in Resources */,
+				DBA51AF41C301175009131B5 /* Game.xcassets in Resources */,
+				DBA51B011C3011D3009131B5 /* octopus.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA51AE41C301175009131B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB18F0701C3499490031AE36 /* Octopus.swift in Sources */,
+				DBA51AF01C301175009131B5 /* GameScene.swift in Sources */,
+				DB18F06E1C3499360031AE36 /* Tentacle.swift in Sources */,
+				DBA51AF21C301175009131B5 /* GameViewController.swift in Sources */,
+				DB18F0721C3499C50031AE36 /* Diver.swift in Sources */,
+				DBA51AEC1C301175009131B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBA51AF51C301175009131B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA51AF61C301175009131B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBA51AFB1C301175009131B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DBA51AFC1C301175009131B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA51AFE1C301175009131B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Octopus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyense.Octopus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBA51AFF1C301175009131B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Octopus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyense.Octopus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA51AE31C301175009131B5 /* Build configuration list for PBXProject "Octopus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA51AFB1C301175009131B5 /* Debug */,
+				DBA51AFC1C301175009131B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA51AFD1C301175009131B5 /* Build configuration list for PBXNativeTarget "Octopus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA51AFE1C301175009131B5 /* Debug */,
+				DBA51AFF1C301175009131B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBA51AE01C301175009131B5 /* Project object */;
+}
