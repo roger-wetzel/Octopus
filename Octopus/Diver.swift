@@ -448,10 +448,10 @@ class Diver: SKNode {
     func addLifes() {
         switch self.lifes {
         case 2:
-            self.gameBlockingAnimations.append(OneLifeUpAnimation(diver: self, tickTrigger: self.animationTickTrigger + 6))
+            self.gameBlockingAnimations.append(OneLifeUpAnimation(diver: self, tickTrigger: self.animationTickTrigger + 10))
 
         case 1:
-            self.gameBlockingAnimations.append(TwoLifesUpAnimation(diver: self, tickTrigger: self.animationTickTrigger + 6))
+            self.gameBlockingAnimations.append(TwoLifesUpAnimation(diver: self, tickTrigger: self.animationTickTrigger + 10))
             
         default:
             break

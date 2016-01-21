@@ -81,10 +81,10 @@ class GameScene: SKScene {
         // Highscore
         
         self.highscoreLabel.fontSize = 26
-        self.highscoreLabel.position = CGPoint(x: CGRectGetMidX(self.frame) - 182, y: CGRectGetMidY(self.frame) - 137)
+        self.highscoreLabel.position = CGPoint(x: CGRectGetMidX(self.frame) - 162, y: CGRectGetMidY(self.frame) - 137)
         self.highscoreLabel.fontColor = SKColor.blackColor()
         self.highscoreLabel.colorBlendFactor = 1
-        self.label.horizontalAlignmentMode = .Right
+        self.highscoreLabel.horizontalAlignmentMode = .Right
         self.addChild(self.highscoreLabel)
 
         if let storedHighscore = NSUserDefaults.standardUserDefaults().objectForKey("highscore") as? Int {
